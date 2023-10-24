@@ -1,5 +1,5 @@
 {% set name = "endstate_correction" %}
-{% set version = "0.4" %}
+{% set version = "0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/wiederm/endstate_correction/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c27f44c31ae8bd270e46368ee121710bc75f9ec9225b62fdcea256c079abd2e3
+  sha256: 80d759f9d16438ff19ea72ffed49cb43d2c78912e124383ea7f4d83604977352
 
 build:
   skip: true  # [win]
